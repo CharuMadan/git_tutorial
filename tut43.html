@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript string functions</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+        var string="this is a string";
+        console.log(string);
+        var position = string.indexOf('is'); //first occurance of a substring
+        console.log(position);
+        position=string.lastIndexOf('is'); // laste occurance of substring
+        console.log(position);
+        //substring from a string slice method can take negative values
+        var substr = string.slice(1,6);
+        console.log(substr);
+        //substring method dont take negative values
+        substr=string.substring(1,6);
+        console.log(substr);
+        // substr method 
+        substr1=string.substr(1,6);
+        console.log(substr1);
+
+        // var replaced =string.replace('string','charu');
+        // console.log(string);
+        // console.log(replaced);
+        // console.log(string.toUpperCase());
+        // console.log(string.toLowerCase());
+        // var newstring=string.concat(' New string');
+        // console.log(newstring);
+        // var strwithwhitespaces="      this    is with white space       ";
+        // console.log(strwithwhitespaces);
+        // console.log(strwithwhitespaces.trim());
+         var char3=string.charAt(2);
+         console.log(char3);
+
+    </script>
+</body>
+</html>
